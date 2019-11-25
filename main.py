@@ -56,6 +56,7 @@ async def pp(ctx,user:discord.Member=None):
       description="8D",
       colour=discord.Colour.red()
     )
+    embed.sest_footer(text="'It'll get bigger' 'No it won't'")
     await ctx.send(embed=embed)
   if x==2:
     embed=discord.Embed(
@@ -63,6 +64,7 @@ async def pp(ctx,user:discord.Member=None):
       description="8=D",
       colour=discord.Colour.red()
     )
+    embed.sest_footer(text="Hung like a baby")
     await ctx.send(embed=embed)
   if x==3:
     embed=discord.Embed(
@@ -71,6 +73,7 @@ async def pp(ctx,user:discord.Member=None):
       colour=discord.Colour.gold()
     )
     await ctx.send(embed=embed)
+    embed.sest_footer(text="smoll boi")
   if x==4:
     embed=discord.Embed(
       title="{}'s pp:".format(user.name),
@@ -78,12 +81,14 @@ async def pp(ctx,user:discord.Member=None):
       colour=discord.Colour.teal()
     )
     await ctx.send(embed=embed)
+    embed.sest_footer(text="Is there a banana in your pants or are you just happy to see me?")
   if x==5:
     embed=discord.Embed(
       title="{}'s pp:".format(user.name),
       description="8====D",
       colour=discord.Colour.teal()
     )
+    embed.sest_footer(text="It's soooooo big!")
     await ctx.send(embed=embed)
 
 @bot.command() #QUACK!
